@@ -110,8 +110,9 @@ Para eso vamos a crear tres divs contenedores, y dentro de estos divs vamos a ub
 Para crear todos los elementos de una forma muy rápida vamos a utilizar un truco, una abreviatura de Emmet, que es un herramienta que permite aumentar la velocidad de codificación. 
 Para generar los elementos vamos a tipear div.action*3>img+span y presionar la tecla tab. 
 Luego de hacer eso, vamos a indicar las rutas relativas a cada una de las imágenes, los textos para la propiedad "alt" de cada imagen, y el texto que va debajo, indicando cada acción.
+Por el momento ni veamos el resultado, ya que las imágenes se ven muy grandes porque al ser imágenes del tipo svg, esta sigla significa gráficos vectoriales escalables y a diferencia de otros formatos, no contiene un tamaño asignado, y son perfectamente escalables, esto quiere decir que se pueden agrandar o achicar sin perder resolución. Otra ventaja de este formato de imágenes es que son muy livianas y cargan muy rápidamente. 
 
-
+Para poder conocer todas las acciones que se pueden realizar se puede visitar la página:
 https://docs.emmet.io
 
 
