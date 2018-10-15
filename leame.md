@@ -53,6 +53,18 @@ Luego, dentro de "main-cont" creamos un elemento img con el identificador "logo"
 En la propiedad src del elemento indicamos en forma relativa la carpeta donde se encuentra el archivo de la imagen del logo y en "alt" ponemos un texto alternativo que aparecerá cuando la imagen no pueda cargar correctamente.
 También ayudará a usuarios que tengan problemas de visión. Las reglas generales son que el texto debería describir la información que contiene la imagen, pero en caso de ser una imagen totalmente decorativa esta propiedad puede quedar vacía. Por eso en este caso lo vamos a dejar vacío. 
 Creamos un selector de id en css para el logo, y le establecemos el ancho a 100%, esto significa que va a ocupar la totalidad del ancho.
+
+#8
+
+Para respetar el diseño, todos los elementos que esten dentro del contenedor principal main-cont, deberían tener un margen o distancia que los separe de los bordes del contenedor (a pesar que estos bordes no van a ser visibles).
+Por eso podríamos aplicar un margen a cada uno de los elementos, o aplicar un espacio de "relleno" al contenedor. Este espacio de relleno se logra hacer con padding, y a diferencia de utilizar el margin, es un espacio que se ubica por dentro del componente y no por fuera. 
+Lo podemos ver en este diagrama que aparece en la consola de programación del Chrome. 
+Para eso le vamos a establecer la propiedad padding al elemento "main-cont" con cuatro valores. Se establece en forma de las agujas del reloj, empezando desde arriba, 0 30px 0 30px. Esto como vemos agranda el cuadrado naranja, entonces si queremos que el padding no modifique el tamaño que nosotros definimos, debemos utilizar la propiedad box-sizing. 
+Por defecto esta propiedad esta establecida con el valor "content-box", y eso significa que al establecer una altura o ancho, este número no contempla el padding o relleno, entonces para conocer el tamaño total del elemento, deberíamos sumar esas dos cantidades. En vez de hacer esa cuenta, si queremos que el "relleno" actúe como tal y sea contemplado dentro del tamaño que fijamos, debemos establecer el valor de la propiedad "box-sizing" a border-box. De esta manera no sólo el padding será contemplado como parte del tamaño, sino también el tamaño que el borde pudiera tener. 
+
+
+
+https://www.w3schools.com/cssref/css3_pr_box-sizing.asp
  
 
 
