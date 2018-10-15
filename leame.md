@@ -103,6 +103,17 @@ Página de ayuda: CSS Matic
 
 Vamos a utilizar la propiedad margin para aplicar un margen y conocer las diferencias con respecto a utilizar "padding". Mientras padding se ubica por dentro del elemento, el margin, siempre esta por fuera. Se puede aplicar un margen diferente a cada uno de los costados del elemento, utilizando cuatro valores diferentes separados por espacios. En este caso vamos a aplicar 5px arriba y 5 px abajo del elemento contenedor de la información de la mesa. También lo podríamos aplicar por separado, utilizando las propiedades margin-top y margin-bottom.
 
+#16 
+
+Vamos a agregar las imágenes correspondiente a las acciones que puede hacer el usuario.
+Para eso vamos a crear tres divs contenedores, y dentro de estos divs vamos a ubicar una imagen y un texto que va a ayudar a indicar la acción, debajo de la imagen.
+Para crear todos los elementos de una forma muy rápida vamos a utilizar un truco, una abreviatura de Emmet, que es un herramienta que permite aumentar la velocidad de codificación. 
+Para generar los elementos vamos a tipear div.action*3>img+span y presionar la tecla tab. 
+Luego de hacer eso, vamos a indicar las rutas relativas a cada una de las imágenes, los textos para la propiedad "alt" de cada imagen, y el texto que va debajo, indicando cada acción.
+
+
+https://docs.emmet.io
+
 
 
 
