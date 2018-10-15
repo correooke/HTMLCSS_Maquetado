@@ -82,6 +82,12 @@ Vamos a establecer las características básicas del texto que se va a mostrar d
 
 Luego, en el CSS le aplicamos estilo al texto, lo centramos, establecemos el alto de línea igual al contenedor y asignamos una fuente y estilo bold. 
 
+#12
+
+Vamos a jugar con las posibilidades de transparencia en el color de fondo mediante la utilización de rgba, y transparencia en todo el elemento mediante "opacity".
+
+
+
 
  
 
