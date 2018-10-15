@@ -16,4 +16,8 @@
     height: 50px;
     width: 100vw;
     background-color: rgb(62,46,34);
+    color: white;
+    text-align: center;
+    font: 14px Helvetica, sans-serif;
+    font-weight: bold;
 }
