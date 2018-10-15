@@ -99,6 +99,12 @@ Definimos también el color del texto, a un color marrón clarito.
 
 Página de ayuda: CSS Matic
 
+#15
+
+Vamos a utilizar la propiedad margin para aplicar un margen y conocer las diferencias con respecto a utilizar "padding". Mientras padding se ubica por dentro del elemento, el margin, siempre esta por fuera. Se puede aplicar un margen diferente a cada uno de los costados del elemento, utilizando cuatro valores diferentes separados por espacios. En este caso vamos a aplicar 5px arriba y 5 px abajo del elemento contenedor de la información de la mesa. También lo podríamos aplicar por separado, utilizando las propiedades margin-top y margin-bottom.
+
+
+
 
 
  
