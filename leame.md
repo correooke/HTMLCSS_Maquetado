@@ -62,9 +62,14 @@ Lo podemos ver en este diagrama que aparece en la consola de programación del C
 Para eso le vamos a establecer la propiedad padding al elemento "main-cont" con cuatro valores. Se establece en forma de las agujas del reloj, empezando desde arriba, 0 30px 0 30px. Esto como vemos agranda el cuadrado naranja, entonces si queremos que el padding no modifique el tamaño que nosotros definimos, debemos utilizar la propiedad box-sizing. 
 Por defecto esta propiedad esta establecida con el valor "content-box", y eso significa que al establecer una altura o ancho, este número no contempla el padding o relleno, entonces para conocer el tamaño total del elemento, deberíamos sumar esas dos cantidades. En vez de hacer esa cuenta, si queremos que el "relleno" actúe como tal y sea contemplado dentro del tamaño que fijamos, debemos establecer el valor de la propiedad "box-sizing" a border-box. De esta manera no sólo el padding será contemplado como parte del tamaño, sino también el tamaño que el borde pudiera tener. 
 
-
-
 https://www.w3schools.com/cssref/css3_pr_box-sizing.asp
+
+#9
+
+En caso que la imagen cargue lentamente, o debido a algún problema no pueda cargar correctamente, todo el contenido que este por debajo de la imagen se moverá causando un efecto desagradable para el usuario. Por esta razón, lo recomendable es establecer un tamaño por defecto a la imagen, y de esta manera conservará su espacio aún a pesar que demore su carga o directamente no cargue. 
+Para conseguir esto voy a establecer el max-height, el alto máximo de la imagen, a 170 px. 
+
+
  
 
 
