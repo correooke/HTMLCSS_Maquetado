@@ -69,6 +69,12 @@ https://www.w3schools.com/cssref/css3_pr_box-sizing.asp
 En caso que la imagen cargue lentamente, o debido a algún problema no pueda cargar correctamente, todo el contenido que este por debajo de la imagen se moverá causando un efecto desagradable para el usuario. Por esta razón, lo recomendable es establecer un tamaño por defecto a la imagen, y de esta manera conservará su espacio aún a pesar que demore su carga o directamente no cargue. 
 Para conseguir esto voy a establecer el max-height, el alto máximo de la imagen, a 170 px. 
 
+#10
+
+En este video vamos a crear tres contenedores, donde vamos a ubicar la información de la mesa, las acciones que puede hacer el usuario y debajo un cuadro con estrellas para que el usuario pueda calificar la atención del mozo. 
+
+Vamos a utilizar tres técnicas de posicionamiento diferente. El primer div va a tener un alto fijo, el segundo va a adecuarse al tamaño de su contenido, y el tercero va a tener un tamaño absoluto y se va a posicionar en la parte inferior de su contenedor, el main-cont.
+Para que sean visibles, vamos a otorgarles los colores rojo, verde y azul, respectivamente. 
 
  
 

@@ -12,6 +12,7 @@
     background-color: orange;
     padding: 0 30px 0 30px;   
     box-sizing: border-box; 
+    position: relative;
 }
 
 #footer-cont {
@@ -31,4 +32,24 @@
 #logo {
     width: 100%;
     max-height: 170px;
+}
+
+.info-cont {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+
+.actions-cont { 
+    width: 100%;
+    background-color: green;
+}
+
+.score-cont {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    left: 0;
+    right: 0;
+    background-color: blue;
 }
