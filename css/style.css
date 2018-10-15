@@ -3,13 +3,13 @@
 }
 
 #main-cont {
-    height: 90vh;
+    height: calc(100vh - 50px);
     width: 100vw;
     background-color: orange;
 }
 
 #footer-cont {
-    height: 10vh;
+    height: 50px;
     width: 100vw;
     background-color: rgb(62,46,34);
 }
