@@ -41,9 +41,9 @@
     font: 22px Helvetica, sans-serif;
     font-weight: bolder;
     line-height: 50px;
-    background-color: rgba(255,0,0,1);
-    opacity: 0.8;
+    background: linear-gradient(to right, rgba(104,60,17,1) 0%, rgba(219,209,199,0.4) 51%, rgba(104,60,17,1) 100%);
     border-radius: 20px;
+    color: rgba(104,60,17,1);
 }
 
 .actions-cont { 

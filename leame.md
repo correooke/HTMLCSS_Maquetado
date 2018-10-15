@@ -90,6 +90,16 @@ Vamos a jugar con las posibilidades de transparencia en el color de fondo median
 
 Vamos a conocer cómo lograr bordes redondeados utilizando border-radius. Primero vamos a ver cómo establecer los bordes uno por uno, empezando por el superior izquierdo, en sentido de las agujas de reloj, y luego lo dejamos finalmente establecido en 20px para todos los bordes por igual.
 
+#14
+
+Utilizando lo aprendido, vamos a hacer un fondo con gradiente lineal, con dirección hacia la derecha y tres puntos de color.
+Vamos a utilizar la propiedad "background" en vez de background color, ya que vamos a definir algo más complejo que simplemente un único color. Utilizamos la función "linear-gradient".
+Dentro de los colores clave, vamos a utilizar colores con rgba y alfa definido.
+Definimos también el color del texto, a un color marrón clarito.  
+
+Página de ayuda: CSS Matic
+
+
 
  
 
