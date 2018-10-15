@@ -86,7 +86,9 @@ Luego, en el CSS le aplicamos estilo al texto, lo centramos, establecemos el alt
 
 Vamos a jugar con las posibilidades de transparencia en el color de fondo mediante la utilización de rgba, y transparencia en todo el elemento mediante "opacity".
 
+#13 
 
+Vamos a conocer cómo lograr bordes redondeados utilizando border-radius. Primero vamos a ver cómo establecer los bordes uno por uno, empezando por el superior izquierdo, en sentido de las agujas de reloj, y luego lo dejamos finalmente establecido en 20px para todos los bordes por igual.
 
 
  
