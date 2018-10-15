@@ -76,6 +76,13 @@ En este video vamos a crear tres contenedores, donde vamos a ubicar la informaci
 Vamos a utilizar tres técnicas de posicionamiento diferente. El primer div va a tener un alto fijo, el segundo va a adecuarse al tamaño de su contenido, y el tercero va a tener un tamaño absoluto y se va a posicionar en la parte inferior de su contenedor, el main-cont.
 Para que sean visibles, vamos a otorgarles los colores rojo, verde y azul, respectivamente. 
 
+#11
+
+Vamos a establecer las características básicas del texto que se va a mostrar dentro de la sección de información de la mesa. Para eso vamos a crear un span.
+
+Luego, en el CSS le aplicamos estilo al texto, lo centramos, establecemos el alto de línea igual al contenedor y asignamos una fuente y estilo bold. 
+
+
  
 
 
