@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+#main-cont {
+    height: 90vh;
+    width: 100vw;
+    background-color: orange;
+}
+
+#footer-cont {
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(62,46,34);
+}
