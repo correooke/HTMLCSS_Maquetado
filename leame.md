@@ -124,6 +124,19 @@ Guardamos y vemos el resultado. Han desaparecido los texto de los span, esto suc
 
 Por último, observamos que en el diseño existe una pequeña separación entre cada imagen de acción, entonces agregamos un padding de 10px y cambiamos el box-sizing a boder-box.
 
+#18
+
+Descargamos de recursos la imagen "estrella.svg". Después mediante el atajo span{PUNTUAR MOZO}+div.stars>img.star*5 agregamos el texto "puntuar mozo" y cinco imágenes de estrella que van a servir para otorgar la calificación al mozo que atiende al usuario del sistema.
+Luego vamos a hacer uso de las potencialidades de la hoja de estilo en cascada y vamos a hacer referencia mediante un selector a todos los elementos img que esten dentro de un elemento que contenga la clase "stars", que a su vez este dentro de un elemento llamado "score-cont". Cabe decir que en este caso puede ser redundante este nivel de especificación, pero sirve para mostrar cómo funciona CSS. Ante dos selectores que apliquen una misma propiedad, tendrá prioridad el que mayor nivel de especificación tenga. Este es un dato a tener muy presente, ya que muchas veces vemos que la propiedad que queremos aplicar no es aplicada porque otro selector esta "matando" lo que nosotros establecemos. 
+En el selector que acabos de crear vamos a hacer que las estrellas tengan como alto el 100% de su contenedor y "floten" hacia la derecha. Con esto logramos que se posicionen en el lado derecho del contenedor.
+
+Guardamos y vemos el resultado.
+
+Por el momento, vemos que todavía faltan muchos detalles, ya que les estrellas se ven una línea debajo de "puntuar mozo" y en orden inverso al que las pusimos, es decir, la primer estrella en el html será la que se vea última.
+
+Vamos a seguir mejorando el diseño en la próxima clase. 
+
+
 
 
 

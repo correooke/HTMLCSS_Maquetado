@@ -70,3 +70,8 @@
     box-sizing: border-box;
     padding: 10px;
 }
+
+.score-cont .stars img {
+    height: 100%;
+    float: right;
+}
