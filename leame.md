@@ -115,6 +115,14 @@ Por el momento ni veamos el resultado, ya que las imágenes se ven muy grandes p
 Para poder conocer todas las acciones que se pueden realizar se puede visitar la página:
 https://docs.emmet.io
 
+#17 
+
+En este video vamos a hacer que las tres acciones se ubiquen en una misma línea, una al lado de la otra. Para lograr eso vamos darle a cada acción 1/3 del espacio, eso equivale a decir que cada acción tiene un ancho igual a 33.3 porciento. Con esto solo no es suficiente, ya que los divs tienen por defecto el tipo de display "block" que hace que se ubiquen uno debajo del otro en vez de ubicarse al lado. Por eso vamos a establecer el display en "inline-block". Al ser "inline" permite que otros elementos se posicionen en la misma línea. Guardamos, y vemos el resultado. Aún no queda como esperamos. Puede ser difícil de entender a primera vista, pero los espacios que existen entre cada uno de los divs, hacen que haya una muy pequeña separación, y eso hace que a pesar de que hayamos divido el espacio perfectamente en 3 partes, con esta pequeña separación, los tres elementos no caben en la misma línea. Un truco para lograr que las tres acciones quepan perfectamente, es "juntar" los divs de apertura y cierre.
+Esto puede resultar un poco desprolijo, entonces otro truco es establecer el font-size del contenedor a 0. Tampoco es muy bonito pero funciona. 
+
+Guardamos y vemos el resultado. Han desaparecido los texto de los span, esto sucede por haber puesto el font-size en 0. Por eso vamos a establecer el font a 14 pixeles y la variable tipográfica Helvética. También centramos el texto con "text-align" igual a center. 
+
+Por último, observamos que en el diseño existe una pequeña separación entre cada imagen de acción, entonces agregamos un padding de 10px y cambiamos el box-sizing a boder-box.
 
 
 

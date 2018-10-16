@@ -50,6 +50,7 @@
 .actions-cont { 
     width: 100%;
     background-color: green;
+    font-size: 0;
 }
 
 .score-cont {
@@ -59,4 +60,13 @@
     left: 0;
     right: 0;
     background-color: blue;
+}
+
+.action {
+    width: 33.3%;
+    display: inline-block;
+    font: 14px Helvetica, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
 }
