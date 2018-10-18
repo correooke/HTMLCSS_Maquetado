@@ -136,6 +136,33 @@ Por el momento, vemos que todavía faltan muchos detalles, ya que les estrellas 
 
 Vamos a seguir mejorando el diseño en la próxima clase. 
 
+#19
+
+Primero, vamos a lograr que el texto se centre verticalmente. Eso lo vamos a hacer utilizando una técnica que ya vimos, otorgar al alto de la línea el mismo valor del alto del contenedor.
+
+Hacemos referencia al span que contiene el texto mediante el selector .score-cont span y ponemos el line-height en 50 px.
+
+La fuente tipográfica tampoco es la adecuada, así que en el contenedor "score-cont" vamos a establecer una fuente de 12 px y de la familia tipográfica helvética. 
+
+Después de las últimas modificaciones, las imágenes de las estrellas se ubican en una linea inferior al texto que dice "puntuar mozo". Para evitar eso tenemos diferentes formas de lograrlo, en este caso vamos a utilizar la posición absoluta. 
+
+Vamos a crear un selector de la clase start que este dentro de score-cont, y primero ponemos la position en absolute, luego el top igual a 0, y como queremos que este pegado al borde derecho vamos a poner el right también en 0. 
+
+Para lograr que las estrellas se achiquen un poco, en vez de determinar el tamaño de la imagen, vamos a reducir el contenedor agregandole un relleno, un padding de 13 y un el box-sizing establecido en border-box. Luego el alto total vamos a hacer que se ajuste al contenedor.
+
+Falta un toque más para que el diseño sea el que esperamos, una línea por arriba de la sección de calificación. Eso lo vamos a lograr mediante la propiedad border-top, style, width, y color en el selector de "score-cont". El estilo le ponemos "solid", al grosor de la línea lo definimos en 2 px, y el color le ponemos rgb(62,46,34). 
+
+Por último le sacamos el color de fondo, que utilizamos de referencia, tanto en el contenedor principal como en la sección de calificación, para observar mejor el progreso que hicimos hasta acá.
+
+Por el momento vamos a dejar acá, y luego seguimos. 
+
+#18
+
+
+
+
+
+
 
 
 

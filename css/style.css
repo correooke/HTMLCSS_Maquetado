@@ -9,7 +9,6 @@
     min-width: 320px;
     min-height: 520px;
     margin: auto;
-    background-color: orange;
     padding: 0 30px 0 30px;   
     box-sizing: border-box; 
     position: relative;
@@ -59,7 +58,10 @@
     height: 50px;
     left: 0;
     right: 0;
-    background-color: blue;
+    font: 12px Helvetica, sans-serif;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: rgb(62,46,34);
 }
 
 .action {
@@ -74,4 +76,17 @@
 .score-cont .stars img {
     height: 100%;
     float: right;
+}
+
+.score-cont span {
+    line-height: 50px;
+}
+
+.score-cont .stars {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 13px;
+    box-sizing: border-box;
+    height: 100%;
 }
