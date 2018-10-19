@@ -89,3 +89,7 @@
     box-sizing: border-box;
     height: 100%;
 }
+
+.stars .star:hover {
+    cursor: pointer;
+}

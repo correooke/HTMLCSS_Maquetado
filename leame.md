@@ -168,6 +168,21 @@ De esta manera, ya la maqueta html de la página se parece al diseño que se hab
 
 En los próximos videos vamos a aplicarle algunos estilos dinámicos que le van a dar calidad profesional a nuestro diseño. 
 
+#21
+
+En este video vamos a conocer una técnica que permite modificar componentes cuando pasamos el mouse por encima de ellos. 
+
+En el archivo de estilos vamos a ver un nuevo concepto que nos va a ayudar con esta tarea. Vamos a generar algo llamado "pseudo-clase CSS". Esto se trata de una palabra clave que se pone después del nombre del selector y representa un estado especial. Por ejemplo, podemos decirle al componente "aplica este estilo sólo mientras el usuario este pasando el mouse por encima". Para hacer eso, la palabra clave es "hover". Existe otras pseudoclases, pero vamos a ver sólo esa por el momento. 
+Vamos a verlo en funcionamiento. Creamos un selector que tome todas las "star" dentro de "stars". La particularidad es que vamos a agregar los dos puntos detrás de "star" y luego vamos a escribir la palabra "hover" (con h y v corta o uve).
+Dentro vamos a especificar la propiedad "cursor" y la vamos a establecer a "pointer", grabamos y vemos el resultado. 
+
+Bien, espero que les haya salido. En el próximo video vamos a hacer algo aún más interesante.
+
+#22
+
+En este video vamos a hacer que al pasar el mouse por encima de las estrellas, estas cambien de color. Para lograr ese efecto, lo primero que vamos a hacer es descargar la imagen que esta en los recursos que se llama "estrella_sel.svg" y la vamos a copiar sobre la carpeta "img".
+
+
 
 
 
