@@ -91,5 +91,5 @@
 }
 
 .stars .star:hover {
-    cursor: pointer;
+    border: 1px solid;
 }
