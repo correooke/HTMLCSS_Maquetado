@@ -91,5 +91,5 @@
 }
 
 .stars .star:hover {
-    border: 1px solid;
+    content: url('./../img/estrella_sel.svg');
 }

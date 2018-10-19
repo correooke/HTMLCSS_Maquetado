@@ -179,6 +179,16 @@ Ahora al pasar el cursor por cada estrella se dibuja un pequeño borde a su alre
 
 Bien, espero que les haya salido. En el próximo video vamos a hacer algo aún más interesante.
 
+#22
+
+En este video vamos a hacer que al pasar el mouse por encima de las estrellas, estas cambien de color. Para lograr ese efecto, lo primero que vamos a hacer es descargar la imagen que esta en los recursos que se llama "estrella_sel.svg" y la vamos a copiar sobre la carpeta "img".
+
+Dentro del pseudo selector que creamos en el anterior video, vamos a indicarle que cambie la imagen de fondo al pasar el cursor. Para eso vamos a utilizar una función de CSS relativamente nueva que es "content". Luego utilizamos la función url y entre paréntesis escrimos la ruta relativa hasta encontrar la imagen "estrella_sel.svg". Este paso es clave, ya que si no ponemos la ruta correcta no se mostrará la imagen. 
+Tenemos que recordar, que la ruta que vamos a poner es relativa a donde estamos, al archivo style.css que esta dentro de la carpeta CSS, por eso lo primero que debemos hacer es "salir un nivel" hacia afuera. Eso lo logramos con los "dos puntos". La url debe quedar así:
+content: url('./../img/estrella_sel.svg');
+
+Guardamos lo que hicimos, y probamos. Si al pasar el mouse por arriba de cada una de las estrellas pueden ver este efecto, donde la estrella cambia de color, ¡felicitaciones!. Si por algún motivo, no sucede esto, revisen haber copiado el archivo en la carpeta correcta y que la url tenga el valor exacto y correcto. 
+
 
 
 
