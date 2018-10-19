@@ -156,7 +156,19 @@ Por último le sacamos el color de fondo, que utilizamos de referencia, tanto en
 
 Por el momento vamos a dejar acá, y luego seguimos. 
 
-#18
+#20
+
+Al hacer click sobre alguna de las acciones, podría desplegarse un mensaje por sobre los botones de las acciones. Para eso vamos a utilizar una imagen nueva, que pueden descargar desde los recursos de la clase. Este archivo se llama "message.svg" y también es un gráfico vectorial. Lo vamos a copiar en la carpeta "img".
+
+En el archivo index.html vamos a crear un div con la clase "message" y dentro un img donde vamos a ver la imagen que descargamos. Lo vamos a poner en la primera posición, dentro del contenedor "actions-cont". 
+
+Una vez que creamos el contenedor y la imagen para el mensaje, vamos a sacar el color verde de referencia, que habiamos puesto en el fondo del contenedor de las acciones.
+
+De esta manera, ya la maqueta html de la página se parece al diseño que se había definido en primer momento. Podemos ver que al cambiar el tamaño de pantalla, achicarlo o agrandarlo, se sigue viendo correctamente. Hacemos todas las pruebas necesarias y revisamos que el resultado sea el esperado. 
+
+En los próximos videos vamos a aplicarle algunos estilos dinámicos que le van a dar calidad profesional a nuestro diseño. 
+
+
 
 
 
