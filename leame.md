@@ -207,7 +207,20 @@ La lista de posibles punteros del mouse es bastante larga, les dejo a ustedes si
 
 https://www.w3schools.com/cssref/pr_class_cursor.asp
 
+#24
 
+Vamos a seguir agregando efectos para que nuestra página luzca más dinámica. Vamos a ver el efecto de transición, que nos vamos a permitir cambiar alguna propiedad de los elementos de forma paulatina, dandole un efecto de suavidad en el cambio.
+
+Vamos a hacer que al pasar el mouse por arriba de las estrellas, se vayan agrandando un poco. Primero vamos a aplicar el efecto sin transición, y para eso vamos a aplicar un alto de 115%.
+
+.start .star:hover
+  height: 115%
+
+Vemos como queda, y como bruscamente se agranda la estrella cuando pasamos el mouse por encima. 
+
+Ahora vamos a indicarle que aplique un efecto de transición, mediante:
+
+transition: height 2000ms;
 
 
 

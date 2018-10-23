@@ -92,6 +92,13 @@
     cursor: pointer;
 }
 
+.stars .star {
+    opacity: 0.7;
+    transition-duration: 300ms;
+}
+
 .stars .star:hover {
     content: url('./../img/estrella_sel.svg');
+    height: 115%;
+    opacity: 1;
 }
