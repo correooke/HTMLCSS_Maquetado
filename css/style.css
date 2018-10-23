@@ -70,6 +70,7 @@
     text-align: center;
     box-sizing: border-box;
     padding: 10px;
+    cursor: pointer;
 }
 
 .score-cont .stars img {
@@ -88,6 +89,7 @@
     padding: 13px;
     box-sizing: border-box;
     height: 100%;
+    cursor: pointer;
 }
 
 .stars .star:hover {

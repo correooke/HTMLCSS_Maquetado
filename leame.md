@@ -189,6 +189,26 @@ content: url('./../img/estrella_sel.svg');
 
 Guardamos lo que hicimos, y probamos. Si al pasar el mouse por arriba de cada una de las estrellas pueden ver este efecto, donde la estrella cambia de color, ¡felicitaciones!. Si por algún motivo, no sucede esto, revisen haber copiado el archivo en la carpeta correcta y que la url tenga el valor exacto y correcto. 
 
+#23
+
+En este video vamos a agregar un indicador que le sugiera que puede hacer click o presionar al pasar el mouse sobre cada una de las acciones y sobre cada una de las estrellas.
+Esto lo vamos a lograr con la propiedad "cursor".
+
+Establecemos dentro del selector "action" el cursor=pointer, y lo mismo lo hacemos dentro del selector ".stars star".
+
+Vemos el resultado, ahora al pasar el mouse por sobre esos elementos muestra una manito que nos indica que son elementos que se pueden presionar y que debería suceder alguna acción al hacerles click.
+
+Antes de terminar, vamos a ver otras opciones de puntero de mouse que se pueden establecer, jugando un poco con esta propiedad, que luego vamos a dejar como estaba ahora. 
+Podemos indicar que es algo que se puede mover, mediante "move".
+Podemos indicar que se puede tomar el elemento mediante "grab"
+También se le puede decir que es texto seleccionable, mediante "text"
+Se puede poner el indicador de progreso, como que se estuviera realizando una tarea que demora tiempo mediante "progress"
+La lista de posibles punteros del mouse es bastante larga, les dejo a ustedes si quieren investigar más posibilidades.
+
+https://www.w3schools.com/cssref/pr_class_cursor.asp
+
+
+
 
 
 
