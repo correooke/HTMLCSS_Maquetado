@@ -71,6 +71,7 @@
     box-sizing: border-box;
     padding: 10px;
     cursor: pointer;
+    transition: padding 300ms;
 }
 
 .score-cont .stars img {
@@ -101,4 +102,20 @@
     content: url('./../img/estrella_sel.svg');
     height: 115%;
     opacity: 1;
+}
+
+.action:hover {
+    padding: 12px;
+}
+
+#waiter img:hover {
+    content:url('./../img/campana_sel.svg');
+}
+
+#ticket img:hover {
+    content:url('./../img/cuenta_sel.svg');
+}
+
+#cancel img:hover {
+    content:url('./../img/cancelar_sel.svg');
 }

@@ -233,12 +233,32 @@ Se pueden aplicar efectos de transición a muchas propiedades de css, no sólo a
 
 Vamos a poner una opacidad y luego al hacer el hover sacaremos esta opacidad. Y veremos como se comporta. 
 
-
-
-
-
-
 https://developer.mozilla.org/es/docs/Web/CSS/transition
+
+#25
+
+En esta clase vamos a repasar un poco el efecto de transición para dar un efecto de "presión" sobre las acciones. También vamos a repasar la pseudoclase "hover".
+
+Por eso vamos a crear el selector ".action:hover" y le ponemos la propiedad "padding: 12px". Luego de ver el efecto sin transición, vamos a aplicar la propiedad "transition" sobre la clase ".action".
+
+    transition: padding 300ms;
+
+#26
+
+En esta oportunidad vamos a aplicar un efecto similar al que aplicamos sobre las estrellas, cambiando el color del elemento al pasar el mouse por encima del elemento de acción.
+
+Primero, descargamos desde los recursos tres imágenes, que se corresponden con las imágenes de las tres acciones pero en un color marrón que indica la selección de la misma. Copiamos las imágenes dentro de la carpeta "img", campana_sel.svg, cuenta_sel.svg y cancelar_svg.
+
+Dentro del archivo html agregamos ids a cada una de las acciones. Waiter, Ticket y Cancel. 
+
+Luego en archivo de estilos, agregamos selectores sobre las imágenes que se encuentran dentro de cada contenedor, y utilizamos la pseudoclase "hover" nuevamente.
+Cremos tres selectores, uno por cada contenedor y utilizamos la propiedad "content", estableciendo la url a la imagen correspondiente.
+
+
+
+
+
+
 
 
 
