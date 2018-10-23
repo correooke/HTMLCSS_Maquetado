@@ -222,8 +222,23 @@ Ahora vamos a indicarle que aplique un efecto de transición, mediante:
 
 transition: height 2000ms;
 
+También le podemos agregar un "retraso" o delay a la acción, de esta manera
+
+transition: height 2000ms 500ms;
 
 
+A pesar que no es estrictamente necesario, la propiedad de transición se suele establecer sobre el elemento sin la aplicación de la pseudoclase, por eso vamos a crear el selector para el elemento ".star"
+
+Se pueden aplicar efectos de transición a muchas propiedades de css, no sólo al "height" como en este caso. Podemos utilizar directamente la propiedad "transition-duration", sin especificar una propiedad en particular. Esto sería equivalente a poner "all".
+
+Vamos a poner una opacidad y luego al hacer el hover sacaremos esta opacidad. Y veremos como se comporta. 
+
+
+
+
+
+
+https://developer.mozilla.org/es/docs/Web/CSS/transition
 
 
 
