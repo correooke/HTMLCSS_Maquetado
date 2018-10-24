@@ -119,3 +119,17 @@
 #cancel img:hover {
     content:url('./../img/cancelar_sel.svg');
 }
+
+/*
+.stars .star:first-child {
+    opacity: 0.2;
+}
+
+.stars .star:last-child {
+    opacity: 0.2;
+}
+*/
+
+.stars .star:nth-child(even) {
+    opacity: 0.5;
+}

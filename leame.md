@@ -252,7 +252,43 @@ Primero, descargamos desde los recursos tres imágenes, que se corresponden con 
 Dentro del archivo html agregamos ids a cada una de las acciones. Waiter, Ticket y Cancel. 
 
 Luego en archivo de estilos, agregamos selectores sobre las imágenes que se encuentran dentro de cada contenedor, y utilizamos la pseudoclase "hover" nuevamente.
-Cremos tres selectores, uno por cada contenedor y utilizamos la propiedad "content", estableciendo la url a la imagen correspondiente.
+Creamos tres selectores, uno por cada contenedor y utilizamos la propiedad "content", estableciendo la url a la imagen correspondiente.
+
+#27
+
+Vamos a aprender el uso de un pseudo selector muy interesante, que nos permite hacer referencia a un elemento "hijo", es decir, un elemento que esta dentro de un contenedor, de acuerdo a su posición dentro del contenedor. Vamos a utilizar como ejemplo, las estrellas que sirven para la calificación. 
+
+Primero, voy a hacer algunas pruebas, para mostrar como podría funcionar otras propiedades, que finalmente no voy a utilizar, pero que esta muy bueno aprenderlas. 
+
+Por ejemplo, si quisiera hacer referencia a la primer estrella, podría utilizar el pseudoselector ":first-child" para aplicar opacidad al primer elemento que esta dentro del contenedor "stars", es decir, la estrella que se ve última, ya que al contenedor le puse "float-right" y por eso la estrella que se ve última se corresponde con la primera en el html.
+
+Ahora voy a hacer la misma prueba, pero con otro pseudo selector: ":last-child".
+
+De paso, vamos a aprender algo nuevo, que es marcar texto como comentario en CSS. Los comentarios son muy útiles para explicar algo que hicimos, porqué lo hicimos, e incluso para sacar temporalmente algunos elementos CSS que quizás luego necesitemos tener. La forma de agregar comentarios es similar a la que tienen otros lenguajes de programación con /* y */
+
+Con esto, el texto que queda pintado de verde, ahora ya no tiene efecto, no funciona como código. Observemos que al "comentar" estas líneas ya la primera estrella y la última se ven sin el efecto de opacidad.
+
+Ahora vamos a ver otro pseudo selector por posición pero que permite tomar cualquier elemento que nosotros querramos, partiendo de la primer posición que se la "1". Este pseudo selector es el nth-child. Vamos a probar poniendo diferentes posiciones, para ver como funciona en acción.
+
+.stars .star:nth-child(1)
+
+Este pseudo selector es aún más potente ya que acepta fórmulas, permite tomar posiciones pares o posiciones impares. 
+
+Vamos a ver cómo funciona para seleccionar los elementos impares con "odd", pero finalmente lo vamos a dejar con "even" para tomar sólo los elementos pares. 
+
+.stars .star:nth-child(even) {
+    opacity: 0.5;
+}
+
+Dentro de la variedad de selectores de este estilo también hay otros que se los dejo para invetigar y aprender en los links de la clase.
+
+https://developer.mozilla.org/es/docs/Web/CSS/:nth-child
+
+
+
+
+
+
 
 
 
