@@ -332,6 +332,13 @@ https://developer.mozilla.org/es/docs/Web/CSS/Child_selectors
 https://developer.mozilla.org/es/docs/Web/CSS/Selectores_hermanos_adyacentes
 https://developer.mozilla.org/es/docs/Web/CSS/Selectores_hermanos_generales
 
+#29
+
+En esta clase vamos a utilizar el selector de "hermanos generales" para hacer un efecto sobre las estrellas de calificación. 
+
+Vamos a seleccionar todas las estrellas que esten después de la estrella que estoy seleccionando con el cursor. Entonces mi estrella de referencia va a ser la estrella que sobre la que se este haciendo "hover", y voy a decir que afecte a todos los elementos con la clase ".star" que sean hermanos de esa estrella con hover, y que además estén después de esa estrella.
+
+
 
 
 

@@ -134,6 +134,6 @@
     opacity: 0.5;
 }
 
-#waiter ~ div {
-    background: green;
+.stars .star:hover ~ .star {
+    content:url('./../img/estrella_sel.svg');
 }
