@@ -133,3 +133,7 @@
 .stars .star:nth-child(even) {
     opacity: 0.5;
 }
+
+#waiter ~ div {
+    background: green;
+}

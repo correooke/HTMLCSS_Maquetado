@@ -284,6 +284,56 @@ Dentro de la variedad de selectores de este estilo también hay otros que se los
 
 https://developer.mozilla.org/es/docs/Web/CSS/:nth-child
 
+#28
+
+Hasta ahora utilizamos un único tipo de selector, que se denomina, selector de descendientes.
+
+Cuando escribimos el nombre de una clase que corresponde a un contenedor, luego dejamos un espacio y escribimos el nombre de una clase a la que queremos hacer referencia, lo que estamos buscando o afectando es a todos los elementos que se encuentren dentro de ese contenedor, sin importar que fueran contenidos directamente o estuvieran a su vez dentro de otro "sub-contenedor".
+
+Este tipo de selector es el más común, y para la gran mayoría de los casos les va a ser suficiente.
+
+Vamos a poner un ejemplo, si yo escribo este selector:
+
+#main-cont .action {
+    background: green;
+}
+
+En ese caso, .action esta a un segundo nivel, pero igualmente se pinta el color de fondo de verde.
+
+Pero, deben saber que existen otro tipo de selectores, que permiten identificar de forma más precisa cual es la relación entre las diferentes clases. Por ejemplo, el "selector de hijo" que se representa con el símbolo ">" (mayor), si cambiamos lo que hicimos antes, 
+
+#main-cont > .action {
+    background: green;
+}
+
+Ahora deja de estar en verde el fondo, porque los action estan en un segundo nivel entonces no estan afectados por el selector, ya que alcanza solamente a hijos.
+
+Vamos a seguir jugando con los selectores, vamos a ver el selector de hermano adyacente. Como su nombre lo indica, ese tipo de selector sólo va a afectar cuando encuentre un elemento X al mismo nivel de un elemento Y y que este adyacente, es decir, pegado, seguido. 
+En un ejemplo se va a comprender mejor. 
+
+#waiter + div {
+  background: green;
+}
+
+Ahora, una prueba más, el selector de hermanos generales. A diferencia del anterior, lo que hace este selector es seleccionar todos los elementos hermanos (al mismo nivel) que esten después del elemento que indicamos. Cambiemos el símbolo "+" (más) por el simbolo virgulilla, el simbólo de la "ñ" (~)
+
+#waiter ~ div {
+  background: green;
+}
+
+Ahora vamos a ver cómo en vez de sólo pintarse un sólo elemento, se pintan los dos divs que estan después del elemento #waiter.
+
+Por el momento, vamos a dejar acá el tema. Espero que no se hayan mareado, y les aconsejo que generen algún pequeño html o copien este mismo en otro lado y hagan pruebas y pruebas hasta que puedan reconocer cómo se comporta cada uno de los selectores. Más allá de eso, esta muy bien conocerlos, pero para la gran mayoría de los casos con el selector genérico y básico que vinimos trabajando antes les va a ser suficiente. A medida que se sientan confiados podrán incorporarlos, son muchas cosas y no es necesario incorporar todo a la vez. 
+
+Vamos a continuar en el próximo video haciendo una utilización práctica de uno de los selectores que vimos. 
+
+https://developer.mozilla.org/es/docs/Web/CSS/Descendant_selectors
+https://developer.mozilla.org/es/docs/Web/CSS/Child_selectors
+https://developer.mozilla.org/es/docs/Web/CSS/Selectores_hermanos_adyacentes
+https://developer.mozilla.org/es/docs/Web/CSS/Selectores_hermanos_generales
+
+
+
 
 
 
